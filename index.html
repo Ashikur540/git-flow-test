@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Sample project HTML for Exam</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div id="allreapeater">
+          <!-- Item Start -->
+          <div class="repeater-fields">
+            <div class="repeater-head">
+              <div class="repeater-item-title">First Item</div>
+              <div class="repeater-item-remove">
+                <span class="remove-icon">X</span>
+              </div>
+            </div>
+            <div class="repeater-controls">
+              <div class="fild-area">
+                <label>Heading</label>
+                <input name="title" type="text" value="" />
+              </div>
+              <div class="fild-area">
+                <label>Type</label>
+                <select name="selectfield">
+                  <option value="one">Type One</option>
+                  <option value="two">Type Two</option>
+                  <option value="three">Type Three</option>
+                </select>
+              </div>
+              <div class="fild-area">
+                <label>Description</label>
+                <input name="decsription" type="text" value="" />
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+
+          <!-- Item Start -->
+          <div class="repeater-fields">
+            <div class="repeater-head">
+              <div class="repeater-item-title">Second Item</div>
+              <div class="repeater-item-remove">
+                <span class="remove-icon">X</span>
+              </div>
+            </div>
+            <div class="repeater-controls active-repeter">
+              <div class="fild-area">
+                <label>Heading</label>
+                <input name="heading" type="text" value="" />
+              </div>
+              <div class="fild-area">
+                <label>Type</label>
+                <select name="selectfield">
+                  <option value="one">Type One</option>
+                  <option value="two">Type Two</option>
+                  <option value="three">Type Three</option>
+                </select>
+              </div>
+              <div class="fild-area">
+                <label>Description</label>
+                <input name="decsription" type="text" value="" />
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+        </div>
+        <div class="action-button">
+          <div id="get-reapeter-data" class="add-field-button">
+            <span>Get Repeater Data</span>
+          </div>
+          <div id="add-reapeter" class="add-field-button">
+            <span>+ Add Field</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <script src="js/script.js"></script> -->
+  <script src="js/myscript.js"></script>
+</html>

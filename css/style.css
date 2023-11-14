@@ -1,0 +1,78 @@
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+.repeater-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d5dadf;
+  cursor: pointer;
+}
+.repeater-head .repeater-item-title {
+  margin-left: 10px;
+}
+.remove-icon {
+  justify-content: center;
+  min-width: 36px;
+  padding: 6px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #d5dadf;
+}
+.repeater-controls {
+  border: 1px solid #d5dadf;
+  padding: 10px;
+  border-top: 0;
+}
+.repeater-fields .repeater-controls:not(.active-repeter) {
+  display: none;
+}
+.repeater-fields {
+  margin: 10px 0;
+}
+
+.fild-area label {
+  display: block;
+  margin-bottom: 5px;
+}
+.fild-area input,
+.fild-area select {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+}
+.fild-area {
+  margin-bottom: 20px;
+}
+.repeater-controls .fild-area:last-child {
+  margin-bottom: 0;
+}
+
+.add-field-button {
+  display: block;
+  overflow: hidden;
+  text-align: right;
+}
+.add-field-button span {
+  border: 1px solid #0b6ff5;
+  padding: 8px 15px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #0b6ff5;
+  color: #fff;
+}
+.action-button {
+  display: flex;
+  justify-content: space-between;
+}
